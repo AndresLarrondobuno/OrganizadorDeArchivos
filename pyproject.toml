@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "organizadordearchivos"
+version = "0.1.0"
+description = "paquete para organizar archivos segun su tipo"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+shutils = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
